@@ -1,8 +1,17 @@
+import FeaturedProperties from '@/components/FeaturedProperties';
+import Hero from '@/components/Hero';
+import HomeProperties from '@/components/HomeProperties';
+import InfoBoxes from '@/components/InfoBoxes';
+ 
 const HomePage = () => {
+  
   return (
-    <div className="text-4xl font-bold text-center text-red-500">
-      HomePage
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes />
+      <FeaturedProperties />
+      <HomeProperties />
+    </>
   )
 }
 
