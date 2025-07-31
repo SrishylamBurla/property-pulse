@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏡 Property Pulse
 
-## Getting Started
+*A web application to help you find your next rental property.*
 
-First, run the development server:
+> **“Turning locations into lifestyles — Property Pulse connects people to places with precision, performance, and purpose.”**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Live Demo:** [https://property-pulse-green-pi.vercel.app/](https://property-pulse-green-pi.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Screenshot 1](https://github.com/user-attachments/assets/1ed9b94d-3fe9-4323-b9f7-a9a2c280f7e0)
+![Screenshot 2](https://github.com/user-attachments/assets/67ecee70-5eaf-4712-8643-7ae569b4a248)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+Here are some of the current features that **Property Pulse** includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔐 User authentication with Google & NextAuth.js  
+- 🛡️ User authorization and route protection  
+- 👤 User profile with personal property listings  
+- 🏠 Full CRUD for property listings  
+- 🖼️ Multiple image uploads for each property  
+- 🔎 Property search functionality  
+- 💬 Internal messaging system with **unread** notifications  
+- 🖼️ Interactive Photoswipe image gallery  
+- 🗺️ Map integration using Mapbox  
+- 🔔 Toast notifications for user feedback  
+- 📌 Property bookmarking (saved listings)  
+- 🔗 Easy property sharing to social media  
+- ⏳ Loading spinners for better UX  
+- 📱 Fully responsive design using Tailwind CSS  
+- ❌ Custom 404 not found page  
+- ⚡ Built with Next.js Actions  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧑‍💻 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Property Pulse** uses the following technologies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🧠 **Next.js** (App Router)  
+- ⚛️ **React**  
+- 🎨 **Tailwind CSS**  
+- 🍃 **MongoDB** + **Mongoose**  
+- 🔐 **NextAuth.js**  
+- 📷 **Photoswipe**  
+- ☁️ **Cloudinary**  
+- 🗺️ **Mapbox** + **React Map GL**  
+- 🌍 **React Geocode**  
+- 🌀 **React Spinners**  
+- 🔔 **React Toastify**  
+- 🔗 **React Share**  
+- 🌟 **React Icons**
